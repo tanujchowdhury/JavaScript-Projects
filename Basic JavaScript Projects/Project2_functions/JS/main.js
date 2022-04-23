@@ -10,3 +10,9 @@ function myFunction () {
     sentence += " a lot from this book!"; //Concatenates the string
     document.getElementById("Concatenate").innerHTML = sentence; //Displays the variable when the button is clicked
 }
+
+function myFunction_2 () {
+    var x = "Tanuj";
+    var y = "Chowdhury";
+    document.getElementById("myElement").innerHTML = x + y;
+}
