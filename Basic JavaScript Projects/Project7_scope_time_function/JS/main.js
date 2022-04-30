@@ -32,3 +32,18 @@ function compare_numbers() { //A function with if, else if, and else statements
     }
     document.getElementById("Comparison").innerHTML = comparison;
 }
+
+function Time_function() {//Added function with if, else if, and else statements. Uses Date().getHours()
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time < 12 == Time > 0) {
+        Reply = "It is morning time!";
+    }
+    else if (Time >= 12 == Time < 18) {
+        Reply = "It is afternoon.";0
+    }
+    else {
+        Reply = "It is evening time.";
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
