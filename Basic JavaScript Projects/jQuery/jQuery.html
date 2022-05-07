@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to use jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<script>
+
+    //Executes the function when the DOM is fully loaded
+    $(document).ready(function() {
+
+        //HTML is appended with the following
+        $("html").append(
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                        <h1>Basic jQuery</h1>\
+                        <p id='1'>Paragraph 1</p>\
+                        <p id='2'>Paragraph 2</p>\
+                        <p id='3'>Paragraph 3</p>\
+                    </div>\
+                </div>\
+            </body>"
+        );
+
+        //Paragraph element 2 has its font color changed with CSS
+        $("#2").css({"color":"red"});
+
+        //Executes the function when paragraph element 3 is clicked
+        $("#3").click(function() {
+
+            //h1 element is hidden
+            $("h1").hide();
+        });
+    });
+</script>
+</html>
