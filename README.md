@@ -3,7 +3,7 @@
 These are some small projects I made using JavaScript
 
 ## Projects
-* Pizza Menu
+* [Pizza Menu](Basic JavaScript Projects/Pizza_Project/Pizza.html)
 * Tic-Tac-Toe Game
 * Calculator
 
